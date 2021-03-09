@@ -1,4 +1,51 @@
 h1 {
+  font-family: Verdana, sans-serif;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   color: red;
   font-size: 100px;
+}
+
+h3 {
+  font-family: Verdana, sans-serif;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: red;
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-color: black;
+}
+
+a:link {
+  color: pink;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Options {
+  margin-top: 80px;
 }
