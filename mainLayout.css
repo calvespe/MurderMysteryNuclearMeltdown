@@ -13,6 +13,21 @@
   animation-delay: -2s;
 }
 
+@keyframes example2 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:red; left:200px; top:200px;}
+  75%  {background-color:yellow; left:0px; top:200px;}
+  100% {background-color:white; left:0px; top:0px;}
+}
+
+.alarm2 {
+  background-color: white;
+  animation-name: example2;
+  animation-duration: 8s;
+  animation-delay: -2s;
+}
+
 h1 {
   font-family: Verdana, sans-serif;
   margin-top: 100px;
@@ -30,6 +45,16 @@ h3 {
   margin-right: auto;
   width: 50%;
   color: red;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: Verdana, sans-serif;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: white;
   font-size: 30px;
 }
 
